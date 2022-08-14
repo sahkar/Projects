@@ -1,0 +1,35 @@
+﻿<Application x:Class="Wordle.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Wordle"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="WordleFont" TargetType="Label">
+            <Setter Property="FontFamily"
+                    Value="/Fonts/karnak.ttf #NYTKarnak Text"/>
+        </Style>
+        
+        <Style x:Key="TextFont" TargetType="Label">
+            <Setter Property="FontFamily"
+                    Value="Arial"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="36"/>
+            <Setter Property="Margin" Value="0,0,5,5"/>
+            <Setter Property="BorderBrush" Value="#2d2d30"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+        </Style>
+        
+        
+        <Style x:Key="TextFont2" TargetType="Button">
+            <Setter Property="FontFamily"
+                    Value="/Fonts/Helvetica-Neue-UltraLight.ttf #Helvetica Neue UltraLight"/>
+        </Style>
+
+        <FontFamily x:Key="FontAwesome">/Fonts/fontawesome-webfont.ttf#FontAwesome</FontFamily>
+    </Application.Resources>
+</Application>
+
+    
